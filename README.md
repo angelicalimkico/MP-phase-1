@@ -2,7 +2,6 @@
     <head>
         <title>Memes - Site Map</title>
         <link rel="stylesheet" type="text/css" href="site-map.css"/>
-        <script src="login.js"></script>
     </head>
     <body>
         
