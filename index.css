@@ -1,0 +1,142 @@
+body {
+    background-color: #252628;
+    margin: 0 auto;
+}
+
+p {
+    color: black;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #28a828;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    border-bottom-left-radius: 50;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.navbar a:hover {
+    background: black;
+    color: white;
+}
+
+img {
+    width: 290px;
+}
+
+
+input[type=search] {
+    -webkit-appearance:none;
+    margin-top: 15;
+    margin-right: 30;
+    float: right;
+
+}
+
+li {
+    list-style-type: none;
+}
+
+.posts {
+    padding: 0 200px 200px 200px;
+    height: auto; /* Used in this example to enable scrolling */
+    margin: 47px 200px;
+    background-color: white;
+    border: 5px #E6ECF0 solid;
+    width: 400px;
+}
+
+div.post {
+    background-color: #3867a0;
+    margin-top: 50px;
+    padding-top: 15px;
+    border: 3px black solid;
+    border-radius: 20px;
+    overflow: hidden;
+    position: inherit;
+    height: 400px;
+
+}
+
+div.user{
+    margin: 40;
+    margin-top: 15;
+    margin-bottom: 0;
+    margin-right: 0;
+    float: left;
+    background-image: url("user.png");
+    width: 50px;
+    height: 50px;
+    border-radius: 50px; 
+}
+
+div.username {
+    margin: 10;
+    margin-top: 35;
+    margin-bottom: 0;
+    margin-right: 0;
+    float: left;
+    width: 50px;
+    height: 38px;
+    font-size: 22px;
+    
+}
+
+div.media {
+    margin-top: 15px;
+    margin-left: 55px;
+}
+
+div.share {
+    float: right;
+    margin-top: 30;
+    margin-right: 35;
+}
+
+div.share img {
+    height: 25px;
+    width: 25px;
+}
+
+div.public {
+    width: 50;
+    height: 20;
+    float: right;
+    margin-right: 30;
+    margin-top: 38;
+    color: white;
+    font-weight: 100;
+}
+
+div.private {
+    width: 50;
+    height: 20;
+    float: right;
+    margin-right: 80;
+    margin-top: 38;
+    color: white;
+    font-weight: 100;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link {
+    color: black;
+}
+
+a:visited {
+    color: black;
+}

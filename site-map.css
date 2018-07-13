@@ -1,0 +1,112 @@
+body {
+    background-color: #252628;
+}
+
+label {
+    color: white;
+}
+
+.header a {
+    border-style: none;
+    color: white;
+    font-size: 90;
+    background-color: #252628;
+    font-family: "Times New Roman";
+    cursor: pointer;
+    text-decoration: none;
+}
+
+form {
+    padding: 5% 25%;
+}
+
+.header {
+    padding-top: 70px;
+    text-align: center;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #28a828;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    border-bottom-left-radius: 50;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.navbar a:hover {
+    background: black;
+    color: white;
+}
+
+input[type=search] {
+    -webkit-appearance:none;
+    margin-top: 15;
+    margin-right: 30;
+    float: right;
+
+}
+
+input[type=text]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.button {
+    float: left;
+    width: 139px;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 10px;
+    margin-left: 130px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+
+.output{
+    padding: 0 200px 200px 200px;
+    height: auto;
+    margin-top: 40px;
+    margin-left: 130px;
+    border: 5px #E6ECF0 solid;
+    width: 800px;
+}
+
+.output a{
+    color:white;
+    font-size: 30px;
+}
+
+.output li{
+    margin-top: 0px;
+    color:white;
+    font-size:30px;
+}
+
+.output ul{
+    margin-left: 20px;
+    margin-top: 0px;
+    color:white;
+    font-size:30px;
+}

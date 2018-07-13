@@ -1,0 +1,58 @@
+<html>
+    <head>
+        <title>Memes - Upload</title>
+        <link rel="stylesheet" type="text/css" href="upload.css"/>
+        <script src="index.js"></script>
+    </head>
+    <body>
+        
+        <div class="navbar">
+            <a href="index.html">Home</a>
+            <a href="login.html">Login</a>
+            <a href="register.html">Register</a>
+            <a href="login.html">Logout</a>
+            <a href ="upload.html">Upload</a>
+            <a href="site-map.html">Site Map</a>
+            <input type="search" />
+        </div>
+        
+        <div class="header"><a href="index.html">Uploading a Meme</a></div>
+        
+        <div>
+            <form action="profile.html" method="post">
+                
+                    <label for="post-name">File name</label>
+                
+                    <input type="text" id="post-name" name="post-name" placeholder="Name of File" required>
+                    
+                    <input type= "submit" class="button" value="Upload">
+                    
+                   <input type= "submit" class="button" value="Cancel">
+                    
+                   <input type= "submit" class="button" value="Browse">
+                
+                <br><br>
+                <label for="description">Description(optional)</label>
+                <input type="text" id="description" name="description" placeholder="description (optional)">
+                <br><br>
+                
+                <label for="human">Allowed Users</label>
+                <input type="text" id="human" name="human" placeholder="usernames">
+                
+                <label for="tags">Tags</label>
+                <input type="text" id="tags" name="tags" placeholder="#tags" required>
+
+                <input type="checkbox"/>
+                <label>Public</label>
+                
+                <input type="checkbox"/>
+                <label>Private</label>
+                
+                <br>
+                
+            <input type="submit" value="Upload">
+            </form>
+        </div>
+    </body>
+
+</html>
